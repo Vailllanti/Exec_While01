@@ -12,13 +12,18 @@ namespace Q1
 		//請問 N 是多少?
 		static void Main(string[] args)
 		{
-			int initialize = 1;
 			int sum = 105;
+			int current = 0;
+			int result = 0;
 		
-			while (initialize < sum) 
+			while (result < sum) 
 			{
-				//initialize = initialize +1
+
+				current++;
+				result += current;
+
 			}
+			Console.WriteLine($"N={current}");
 		}
 	}
 }
