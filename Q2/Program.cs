@@ -13,7 +13,9 @@ namespace Q2
      //例如: 1, 2, 3, 4, 5, 6, 10, ...., 300
 		static void Main(string[] args)
 		{
-			var result = new Divisor().GetInput();
+			var result = new Divisor().GetInput(); //1.
+			//var result = new Divisor().          //2.
+			//result.GetInput();
 			Console.WriteLine(result);
 			
 		}
