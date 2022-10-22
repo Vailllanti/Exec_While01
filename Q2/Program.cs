@@ -14,7 +14,7 @@ namespace Q2
 		static void Main(string[] args)
 		{
 			var result = new Divisor().GetInput(); //1.
-			//var result = new Divisor().          //2.
+			//Divisor result = new Divisor() ;     //2.
 			//result.GetInput();
 			Console.WriteLine(result);
 			
